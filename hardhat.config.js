@@ -22,13 +22,6 @@ module.exports = {
     hardhat: {
       chainId: 31337
     },
-    /*
-    ganache: {
-      url: GANACHE_RPC_URL,
-      accounts: [PRIVATE_KEY],
-      chainId: 1337
-    },
-    */
     goerli: {
       url: GOERLI_RPC_URL,
       accounts: [PRIVATE_KEY],
@@ -37,7 +30,7 @@ module.exports = {
     }
   },
   gasReporter: {
-    enabled: false,
+    enabled: true,
     outputFile: "gas-report.txt",
     noColors: true,
     currency: "USD",
