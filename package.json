@@ -27,5 +27,12 @@
   },
   "dependencies": {
     "@nomiclabs/hardhat-solhint": "^2.0.1"
+  },
+  "scripts": {
+    "test": "yarn hardhat test",
+    "test:staging": "yarn hardhat test --network goerli",
+    "lint": "yarn solhint 'contracts/*.sol'",
+    "lint:fix": "yarn solhint 'contracts/*.sol' --fix",
+    "coverage": "yarn hardhat coverage"
   }
 }
