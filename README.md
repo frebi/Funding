@@ -27,6 +27,7 @@
 	to access deployments as ethers contract
 
 
+
 # Usage
 
 Deploy:
@@ -90,6 +91,7 @@ yarn hardhat test
 ```
 
 And you'll see and output file called `gas-report.txt`
+
 
 ### Estimate gas cost in USD
 
