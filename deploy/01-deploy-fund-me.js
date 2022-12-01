@@ -5,6 +5,7 @@ const { verify } = require("../utils/verify")
 require("dotenv").config()
 
 //hre => hardhat runtime environment
+// getNamedAccounts and deployments come from hre
 /*
 module.exports = async (hre) => {
     const { getNamedAccounts, deployments } = hre
